@@ -6,7 +6,7 @@ export default function App() {
     <MantineProvider theme={theme} withGlobalStyles withNormalizeCSS>
       <Stack align="center" mt={50}>
         <Text size="xl" weight={500}>
-          Welcome to Mantine!
+          Welcome to Mantine! Hello World
         </Text>
         <Button>Click the button</Button>
       </Stack>
