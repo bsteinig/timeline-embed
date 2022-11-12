@@ -1,10 +1,7 @@
 import {  Grid, Image, Stack, Text, Title } from "@mantine/core";
 import React from "react";
 
-function Event() {
-
-
-
+function Event({event}) {
 
   return (
     <Grid grow gutter="xs" p={10}>
@@ -12,7 +9,7 @@ function Event() {
         <div style={{ width: "80%", marginLeft: "auto", marginRight: "auto" }}>
           <Image
             radius="md"
-            src="https://images.unsplash.com/photo-1627552245715-77d79bbf6fe2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=640&q=80"
+            src={event.media.url}
             alt="Random unsplash image"
             caption={<Stack spacing="xs" style={{ transform: "translateY(-25%)" }}><Text color="dimmed" size="xs">Image Credit</Text><Text>Image Caption: Dog playing in the water</Text> </Stack>}
             withPlaceholder
@@ -25,8 +22,8 @@ function Event() {
             <Title order={4} weight={400}>
               Start Date - End Date
             </Title>
-            <Title order={1}>Event Title</Title>
-            <Text>Event Description</Text>
+            <Title order={1}>{event.text.headline}</Title>
+            <Text>{event.text.text}</Text>
           </Stack>
       </Grid.Col>
     </Grid>
