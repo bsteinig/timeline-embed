@@ -3,7 +3,7 @@ import { MantineProvider, Text, Button, Stack } from "@mantine/core";
 import { theme } from "./theme";
 import { useEffect } from 'react';
 
-export default function App() {
+export default function App({ domElement }) {
 
   const [data, setData] = useState();
   const [raw, setRaw] = useState();
