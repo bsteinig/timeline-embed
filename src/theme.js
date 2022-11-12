@@ -1,3 +1,3 @@
 export const theme = {
-  colorScheme: "light",
+  colorScheme: "dark",
 };

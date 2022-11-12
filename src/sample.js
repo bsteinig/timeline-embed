@@ -12,21 +12,20 @@ export const mockdata = {
             "type": "title"
       },
       {
-        "end": "n",
         "id": "cce93b30-90e8-48da-a7eb-c03911ad419b",
         "media": {
           "caption": "Engraving by Paul Revere depicting the Boston Massacre",
           "credit": "Smithsonian Magazine",
           "url": "https://thumbs-prod.si-cdn.com/NAv8eQKbwUGHbafV32_2RU23olI=/1072x720/filters:no_upscale()/https://public-media.si-cdn.com/filer/93/a9/93a97057-f628-4de7-adc7-c2ca0f68c4ac/boston_massacre_high-res.jpg"
         },
-        "start_date": { "day": 5, "month": 3, "year": 1770 },
+        "start_date": { "day": 5, "month": 3, "year": 1770, "time": "12:00:12"},
+        "end_date": { "day": 27, "month": 3, "year": 1770 },
         "text": {
           "headline": "The Boston Massacre",
           "text": "British soldiers stationed in Boston to enforce Britain's tax laws clash with American colonists leading to the deaths of five colonists and energizing the independence movement."
         }
       },
       {
-        "end": "n",
         "id": "1ab7e2ef-e5ad-4538-9806-1488f7b2243d",
         "media": {
           "caption": "A brief explanation of the Boston Tea Party",
@@ -40,7 +39,6 @@ export const mockdata = {
         }
       },
       {
-        "end": "n",
         "id": "791026be-d96a-45bb-a117-ccd594d2e073",
         "media": {
           "caption": "A painting showing the First Continental Congress.",
@@ -54,7 +52,6 @@ export const mockdata = {
         }
       },
       {
-        "end": "n",
         "id": "07a95ba1-63e1-49eb-a6ac-ea93e3b1d433",
         "media": {
           "caption": "Summary of the Battle",
