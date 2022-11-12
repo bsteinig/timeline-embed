@@ -1,11 +1,11 @@
-import { StrictMode } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 
-const widgetDiv = document.getElementById("react-timeline-js");
+const root = ReactDOM.createRoot(document.getElementById("react-timeline-js"));
 
-ReactDOM.render(
-  <StrictMode>
-    <App domElement={widgetDiv} />
-  </StrictMode>
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
